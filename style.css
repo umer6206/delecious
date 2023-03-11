@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Josefin+Sans:wght@300&family=Montserrat:wght@300&family=Poppins:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    font-size: 1rem !important;
+}
+a i{
+    font-size: 1.5rem !important;
+    padding-right: 1rem !important;
+}
+input{
+    font-size: 15px!important;
+}
+body{
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.divider-text{
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span{
+    padding: 7px;
+    font-size: 12px;
+    position: relative;
+    z-index: 2;
+}
+.divider-text::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 1082px) {
+    body {
+      left: 13rem;
+    }
+    a{
+        font-size: .7rem !important;
+    }
+    a i{
+        font-size: 0.7rem !important;
+        padding-right: .5rem !important;
+    }
+  }
